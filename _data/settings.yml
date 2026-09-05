@@ -53,9 +53,8 @@ author:
 hero:
   enable: true
   hero_avatar: /images/01-1.jpg
-  hero_title: Marcus Dokidis
-  hero_description: Hey friends 👋 I’m Marcus, a product designer at <a href="#">Strodas</a>. I’ve previously worked with teams at <a href="#">Nucleus</a> and <a href="#">Driftly</a> to build SaaS platforms from the ground up. I take a strategic approach to product design — helping businesses launch faster, scale smarter, and create meaningful user experiences.
-
+  hero_title: Ling Guo
+  hero_description: PhD researcher in Software Engineering at École de technologie supérieure (ÉTS), Montréal. My research focuses on <strong>software measurement, software estimation, COSMIC functional size measurement, and software engineering education</strong>.
 
 #-------------------------------
 # Social Settings
