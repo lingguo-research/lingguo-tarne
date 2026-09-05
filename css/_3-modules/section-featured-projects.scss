@@ -1,28 +1,14 @@
 /* Section Featured Projects */
-.featured-project {
-  .row {
-    justify-content: center;
-  }
 
-  @media (max-width: $tablet) {
-    .section__inner {
-      margin-bottom: -16px;
-    }
-  }
-}
 
 .project-card {
   will-change: transform;
   transition: transform .3s ease;
+  margin-top: 0;
+  margin-bottom: 0;
 
   &:hover {
-    &:nth-child(odd) {
-      transform: rotate(2deg) translateY(-3px);
-    }
-
-    &:nth-child(2n) {
-      transform: rotate(-2deg) translateY(-3px);
-    }
+    transform: translateY(-4px);
 
     .bookmark-btn {
       transform: scale(1);
@@ -30,32 +16,21 @@
     }
   }
 
-  &:nth-child(odd) {
-    transform: rotate(2deg);
-    margin-bottom: 16px;
-  }
-
+  &:nth-child(odd),
   &:nth-child(2n) {
-    z-index: 2;
-    transform: rotate(-2deg);
-    margin-top: 16px;
+    transform: none;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   @media (max-width: $tablet) {
     &:hover {
-      &:nth-child(odd),
-      &:nth-child(2n) {
-        transform: rotate(0deg) translateY(-3px);
-      }
+      transform: translateY(-3px);
     }
 
-    &:nth-child(odd) {
-      transform: rotate(1.4deg);
-      margin-bottom: 16px;
-    }
-
+    &:nth-child(odd),
     &:nth-child(2n) {
-      transform: rotate(-1.4deg);
+      transform: none;
       margin-top: 0;
       margin-bottom: 16px;
     }
