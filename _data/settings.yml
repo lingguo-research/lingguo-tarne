@@ -45,14 +45,14 @@ home_cover_image: /images/bg.png
 # Author Settings
 author:
   author_name: Ling Guo
-  author_avatar: /images/01-1.jpg
+  author_avatar: /images/bio-photo.jpg
 
 
 #-------------------------------
 # Hero Settings
 hero:
   enable: true
-  hero_avatar: /images/01-1.jpg
+  hero_avatar: /images/bio-photo.jpg
   hero_title: Ling Guo
   hero_description: PhD researcher in Software Engineering at École de technologie supérieure (ÉTS), Montréal. My research focuses on <strong>software measurement, software estimation, COSMIC functional size measurement, and software engineering education</strong>.
 
