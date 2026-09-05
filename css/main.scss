@@ -94,6 +94,11 @@
 {% include_relative _3-modules/hero.scss %}
 /* >>>>>>>>>>>>>> :: 3.3-Section Featured <<<<<<<<<<<<<<< */
 {% include_relative _3-modules/section-featured-projects.scss %}
+
+/* >>>>>>>>>>>>>> :: 3.4-Section Publications <<<<<<<<<<<<<<< */
+{% include_relative _3-modules/section-publications.scss %}
+
+
 /* >>>>>>>>>>>>>> :: 3.4-Section Blog <<<<<<<<<<<<<<< */
 {% include_relative _3-modules/section-blog.scss %}
 /* >>>>>>>>>>>>>> :: 3.5-Article <<<<<<<<<<<<<<< */
