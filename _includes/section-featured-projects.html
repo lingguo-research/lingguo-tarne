@@ -16,7 +16,7 @@
           {% assign sorted = site.projects | sort: 'date' | reverse %}
           {% for project in sorted %}
           {% if project.featured == true %}
-          <article class="project-card col-3 col-w-4 col-d-6 col-t-12">
+          <article class="project-card col-3 col-d-6 col-t-12">
             <div class="project-card__inner">
 
               <a href="{{ project.url | relative_url }}" class="project-card__image">
