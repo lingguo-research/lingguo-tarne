@@ -193,3 +193,12 @@
     }
   }
 }
+
+.featured-project .row {
+  column-gap: 16px;
+  row-gap: 20px;
+}
+
+.featured-project .project-card {
+  width: calc(25% - 12px);
+}
