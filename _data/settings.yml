@@ -13,26 +13,22 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Clients'
-      url: '/clients/'
-    - title: 'Resources'
-      submenu:
-      - url: '/about/'
-        title: 'About'
-      - url: '/videos/'
-        title: 'Videos'
-      - url: '/archive/'
-        title: 'Archive'
-      - url: '/elements/'
-        title: 'Elements'
-      - url: '/latest/'
-        title: 'Latest'
-      - url: '/services/'
-        title: 'Services'
-      - url: '/faq/'
-        title: 'FAQ'
+    - title: 'Research'
+      url: '/research/'
+    - title: 'Publications'
+      url: '/publications/'
+    - title: 'Teaching'
+      url: '/teaching/'
+    - title: 'Talks'
+      url: '/talks/'
+    - title: 'Experience'
+      url: '/experience/'
+    - title: 'Scholarships'
+      url: '/scholarships/'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'CV'
+      url: '/cv/'
 
 # Call to action button
 cta_button:
@@ -48,7 +44,7 @@ home_cover_image: /images/bg.png
 #-------------------------------
 # Author Settings
 author:
-  author_name: Marcus Dokidis
+  author_name: Ling Guo
   author_avatar: /images/01-1.jpg
 
 
