@@ -22,10 +22,17 @@ Selected conference presentations and professional talks related to software mea
     </p>
   </div>
 
-  <div class="talk-card__image">
+<div class="talk-card__image">
+
+  <a href="{{ '/images/talks/iwsm-mensura-2024.jpg' | relative_url }}"
+     class="talk-poster-link">
+
     <img src="{{ '/images/talks/iwsm-mensura-2024.jpg' | relative_url }}"
          alt="Challenges on Standardization of User Stories and COSMIC Sizing">
-  </div>
+
+  </a>
+
+</div>
 
 </div>
 
