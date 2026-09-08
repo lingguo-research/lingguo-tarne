@@ -1,7 +1,7 @@
 ---
 title: Comparative Study of Early Software Sizing Techniques
 description: A comparative study of fifteen techniques for estimating software functional size from early and incomplete software requirements.
-order:1
+order: 1
 label: Software Estimation
 image: '/images/project-early-sizing.jpg'
 featured: true
