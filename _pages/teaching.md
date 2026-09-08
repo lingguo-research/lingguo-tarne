@@ -51,3 +51,7 @@ I have also collaborated on the development and production of professional onlin
   </figure>
 
 </div>
+
+## Selected Organizations
+
+{% include section-clients.html %}
