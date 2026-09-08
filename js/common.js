@@ -30,13 +30,19 @@ document.addEventListener("DOMContentLoaded", function() {
     button.addEventListener("click", searchOpen);
   });
 
+
+
+  if (searchCloseIcon) {
   searchCloseIcon.addEventListener("click", () => {
     searchClose();
   });
+}
 
+if (searchOverlay) {
   searchOverlay.addEventListener("click", () => {
     searchClose();
   });
+}
 
   if (blogViewButton) {
     blogViewButton.addEventListener("click", () => {
@@ -95,11 +101,16 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 250);
   }
 
-  function searchClose() {
-    search.classList.remove("is-visible");
-    body.classList.remove("is-fixed");
+function searchClose() {
+  if (!search) return;
+
+  search.classList.remove("is-visible");
+  body.classList.remove("is-fixed");
+
+  if (globalWrap) {
     globalWrap.classList.remove("is-active");
   }
+}
 
   document.addEventListener('keydown', function(e){
     if (e.key == 'Escape') {
