@@ -1,35 +1,77 @@
 {% if site.data.settings.hero.enable == true %}
 <!-- begin hero -->
-<section class="hero">
+<section class="hero hero--academic">
   <div class="container">
-    <div class="hero__inner">
+
+    <div class="hero__academic-inner">
+
+      <!-- Left -->
+      <div class="hero__academic-content">
+
+        <div class="hero__eyebrow">PhD Researcher</div>
+
+        <h1 class="hero__academic-title">Ling Guo</h1>
+
+        <h2 class="hero__academic-subtitle">
+          Software Measurement &amp; Estimation
+        </h2>
+
+        <div class="hero__academic-description">
+          PhD researcher in Software Engineering at École de technologie
+          supérieure (ÉTS), Montréal. My research focuses on
+          <strong>software measurement, software estimation, COSMIC functional
+          size measurement, and software engineering education</strong>.
+        </div>
+
+        <div class="hero__academic-actions">
+          <a href="{{ '/contact/' | relative_url }}"
+             class="button button--primary">
+            Contact Me
+          </a>
+
+          <a href="{{ '/cv/' | relative_url }}"
+             class="button">
+            View CV
+          </a>
+        </div>
+
+        <div class="hero__academic-links">
+
+          <a href="https://scholar.google.com/citations?user=PS_CX0AAAAJ"
+             target="_blank" rel="noopener">
+            Google Scholar
+          </a>
+
+          <a href="https://orcid.org/0009-0009-2175-7102"
+             target="_blank" rel="noopener">
+            ORCID
+          </a>
+
+          <a href="https://www.linkedin.com/in/ling-guo-3bb0ba62/"
+             target="_blank" rel="noopener">
+            LinkedIn
+          </a>
+
+          <a href="mailto:ling.guo.1@ens.etsmtl.ca">
+            Email
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- Right -->
       {% if site.data.settings.hero.hero_avatar %}
-      <div class="hero__avatar">
-        <img class="lazy" data-src="{{ site.data.settings.hero.hero_avatar }}" alt="{{ site.data.settings.author.author_name }}">
+      <div class="hero__academic-avatar">
+        <img
+          class="lazy"
+          data-src="{{ site.data.settings.hero.hero_avatar | relative_url }}"
+          alt="Ling Guo">
       </div>
       {% endif %}
 
-      {% if site.data.settings.hero.hero_title %}
-      <h1 class="hero__title">{{ site.data.settings.hero.hero_title }}</h1>
-      {% endif %}
-
-      {% if site.data.settings.hero.hero_description %}
-      <div class="hero__description">{{ site.data.settings.hero.hero_description | markdownify }}</div>
-      {% endif %}
-
-      {% if site.data.settings.social %}
-      <div class="hero__social">
-        <ul class="hero__social__list list-reset">
-          {% for social in site.data.settings.social %}
-          <li class="hero__social__item">
-            <a class="hero__social__link" href="{{ social.link }}" target="_blank" rel="noopener"
-              aria-label="{{ social.name }} link"><i class="{{ social.icon }}"></i><span>{{ social.name }}</span></a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
     </div>
+
   </div>
 </section>
 <!-- end hero -->
