@@ -13,7 +13,7 @@
       <div class="section__inner">
         <h2 class="screen-reader-text">Featured Projects</h2>
         <div class="row">
-          {% assign sorted = site.projects | sort: 'date' | reverse %}
+        {% assign sorted = site.projects | sort: 'order' %}
           {% for project in sorted %}
           {% if project.featured == true %}
           <article class="project-card col-3 col-d-6 col-t-12">
@@ -28,7 +28,7 @@
               <div class="project-card__content">
                 <div class="project-card__head">
                   <div class="bookmark-btn" data-id="{{ project.url }}" data-title="{{ project.title }}"
-                    data-desc="{{ project.excerpt | strip_html | truncate: 100 }}" data-date="{{ project.date | date_to_long_string }}"
+                    data-desc="{{ project.excerpt | strip_html | truncate: 100 }}" 
                     data-image="{{ project.image }}">
                     <i class="fa-regular fa-bookmark"></i>
                   </div>
