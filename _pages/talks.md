@@ -27,7 +27,10 @@ Selected conference presentations and professional talks related to software mea
          alt="Challenges on Standardization of User Stories and COSMIC Sizing">
   </div>
 
-<h2>2020</h2>
+</div>
+
+
+## 2020
 
 <div class="talk-card talk-card--poster">
 
