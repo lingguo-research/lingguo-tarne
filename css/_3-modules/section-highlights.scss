@@ -67,7 +67,8 @@
   color: var(--primary-color);
 }
 
-@media (max-width: $tablet) {
+/* Mobile only */
+@media (max-width: 700px) {
   .highlights-grid {
     grid-template-columns: 1fr;
   }
