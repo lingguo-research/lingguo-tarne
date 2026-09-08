@@ -60,10 +60,10 @@ My teaching and professional training activities focus on software measurement, 
 
 <figure class="training-photo training-photo--poster">
 
-  <a href="{{ '/images/teaching/online-training-2022.png' | relative_url }}"
+  <a href="{{ '/images/teaching/online-training-2022.jpg' | relative_url }}"
      class="training-poster-link">
 
-    <img src="{{ '/images/teaching/online-training-2022.png' | relative_url }}"
+    <img src="{{ '/images/teaching/online-training-2022.jpg' | relative_url }}"
          alt="Online COSMIC Training, 2022">
 
   </a>
