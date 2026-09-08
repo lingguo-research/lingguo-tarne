@@ -83,3 +83,18 @@
     font-size: 24px;
   }
 }
+
+.experience-link {
+  display: inline-block;
+  margin-top: 28px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-decoration: none !important;
+}
+
+.experience-link:hover {
+  color: var(--primary-color);
+  text-decoration: none !important;
+  transform: translateX(3px);
+}
