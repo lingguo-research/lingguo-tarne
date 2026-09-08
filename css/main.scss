@@ -351,3 +351,61 @@ a {
     max-width: 100% !important;
   }
 }
+
+/* Poster Lightbox */
+
+.poster-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 40px 20px;
+
+  overflow-y: auto;
+
+  background: rgba(0, 0, 0, .82);
+}
+
+.poster-lightbox.is-open {
+  display: flex;
+}
+
+.poster-lightbox__image {
+  display: block;
+
+  width: auto;
+  max-width: min(520px, 92vw);
+  height: auto;
+
+  border-radius: 10px;
+  background: #fff;
+}
+
+.poster-lightbox__close {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  z-index: 10000;
+
+  width: 44px;
+  height: 44px;
+
+  border: 0;
+  border-radius: 50%;
+
+  font-size: 28px;
+  line-height: 1;
+
+  color: #fff;
+  background: rgba(255, 255, 255, .16);
+
+  cursor: pointer;
+}
+
+.poster-lightbox__close:hover {
+  background: rgba(255, 255, 255, .28);
+}
