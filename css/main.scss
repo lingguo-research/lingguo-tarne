@@ -2197,3 +2197,55 @@ a {
 
   object-fit: contain;
 }
+
+/* =========================================
+   FINAL Organizations Logo Slider
+   ========================================= */
+
+.logos__slider {
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.logos__slider .splide__track {
+  overflow: hidden !important;
+}
+
+.logos__slider .splide__list {
+  align-items: center !important;
+}
+
+
+/* Each logo gets enough horizontal space */
+
+.logos__slider .logos__image {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  flex: 0 0 180px !important;
+  width: 180px !important;
+
+  padding: 12px 18px !important;
+}
+
+
+/* Logo itself */
+
+.logos__slider .logos__image img {
+  display: block !important;
+
+  width: auto !important;
+  max-width: 145px !important;
+  height: 58px !important;
+
+  object-fit: contain !important;
+}
+
+
+/* Give the whole logo area some breathing room */
+
+.logos {
+  padding-top: 8px !important;
+  padding-bottom: 12px !important;
+}
