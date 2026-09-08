@@ -53,5 +53,5 @@ I have also collaborated on the development and production of professional onlin
 </div>
 
 
-
+## Selected Organizations
 {% include section-clients.html %}
