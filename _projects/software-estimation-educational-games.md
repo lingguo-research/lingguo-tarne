@@ -1,7 +1,7 @@
 ---
 title: Software Estimation Educational Games
 description: Design and development of a suite of six educational games for teaching software estimation concepts and decision-making.
-date: 2026-09-01 09:00:00 -0400
+order: 2
 label: Software Engineering Education
 image: '/images/project-estimation-games.jpg'
 featured: true
