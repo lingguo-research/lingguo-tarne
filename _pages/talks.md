@@ -32,22 +32,19 @@ Selected conference presentations and professional talks related to software mea
 
 ## 2020
 
-<div class="talk-card talk-card--poster">
+<div class="talk-card__image talk-card__image--poster">
 
-  <div class="talk-card__content">
-    <span class="talk-card__type">APH in China · AgileCxO</span>
+  <a href="{{ '/images/talks/aph-china-2020.jpg' | relative_url }}"
+     class="talk-poster-link">
 
-    <h2>APH in China</h2>
-
-    <p class="talk-card__meta">
-      Presentation on the Chinese edition of the Agile Performance Holarchy (APH)<br>
-      April 2020
-    </p>
-  </div>
-
-  <div class="talk-card__image talk-card__image--poster">
     <img src="{{ '/images/talks/aph-china-2020.jpg' | relative_url }}"
          alt="APH in China presentation, April 2020">
-  </div>
 
+    <span class="talk-poster-link__text">
+      View Full Poster
+    </span>
+
+  </a>
+
+</div>
 </div>
