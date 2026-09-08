@@ -156,32 +156,25 @@ function searchClose() {
   /* ============================
   // Logos Slider
   ============================ */
-  if (splides) {
-    new Splide(splides, {
-      direction: 'ltr',
-      clones: 8,
-      gap: 32,
-      autoWidth: true,
-      drag: true,
-      arrows: false,
-      pagination: false,
-      type: 'loop',
-      autoScroll: {
-        autoStart: true,
-        speed: 0.4,
-        pauseOnHover: false,
-        pauseOnFocus: false
-      },
-      intersection: {
-        inView: {
-          autoScroll: true,
-        },
-        outView: {
-          autoScroll: false,
-        }
-      },
-    }).mount(window.splide.Extensions);
-  }
+if (splides) {
+  new Splide(splides, {
+    type: 'loop',
+    direction: 'ltr',
+    autoWidth: true,
+    gap: 32,
+    drag: false,
+    arrows: false,
+    pagination: false,
+    clones: 10,
+
+    autoScroll: {
+      autoStart: true,
+      speed: 0.35,
+      pauseOnHover: false,
+      pauseOnFocus: false
+    }
+  }).mount(window.splide.Extensions);
+}
 
 
   /* ============================
