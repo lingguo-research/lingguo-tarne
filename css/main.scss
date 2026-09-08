@@ -1511,3 +1511,98 @@ a {
   }
 
 }
+
+/* =========================================
+   Scholarships Page
+   ========================================= */
+
+.page__content .scholarship-card {
+  display: block !important;
+  width: 100% !important;
+
+  margin: 24px 0 48px !important;
+  padding: 30px 32px !important;
+
+  border: 1px solid #dfe5ec !important;
+  border-radius: 16px !important;
+  background: #ffffff !important;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .04) !important;
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    border-color .2s ease;
+}
+
+.page__content .scholarship-card:hover {
+  transform: translateY(-2px);
+  border-color: #1F4E79 !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, .08) !important;
+}
+
+
+/* Doctoral Scholarship */
+
+.page__content .scholarship-card__label {
+  display: inline-block !important;
+
+  margin-bottom: 12px;
+  padding: 6px 11px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #1F4E79;
+  background: #f1f4f7;
+}
+
+
+/* Title */
+
+.page__content .scholarship-card h2 {
+  margin: 0 0 12px !important;
+
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+
+/* Institution */
+
+.page__content .scholarship-card__institution {
+  margin: 0 0 16px !important;
+
+  font-size: 15px;
+  color: var(--text-alt-color);
+}
+
+
+/* Amount */
+
+.page__content .scholarship-card__amount {
+  display: inline-block;
+
+  margin-bottom: 18px;
+  padding: 8px 13px;
+
+  border-radius: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  color: #1F4E79;
+  background: #f1f4f7;
+}
+
+
+/* Description */
+
+.page__content .scholarship-card p:last-child {
+  margin: 0 !important;
+
+  font-size: 15px;
+  line-height: 1.7;
+}
