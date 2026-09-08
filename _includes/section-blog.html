@@ -14,7 +14,7 @@
     <div class="row grid">
       {% if site.posts.size > 0 %}
         {% for post in site.posts limit:3 %}
-          {% include article.html class="article--flexible col col-4 col-d-6 col-t-12 grid__post" %}
+          {% include article-home.html %}
         {% endfor %}
       {% endif %}
     </div>
