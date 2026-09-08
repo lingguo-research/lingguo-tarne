@@ -58,11 +58,19 @@ My teaching and professional training activities focus on software measurement, 
 
 <div class="training-gallery">
 
-  <figure class="training-photo training-photo--poster">
-    <img src="{{ '/images/teaching/online-training-2022.jpg' | relative_url }}"
+<figure class="training-photo training-photo--poster">
+
+  <a href="{{ '/images/teaching/online-training-2022.png' | relative_url }}"
+     class="training-poster-link">
+
+    <img src="{{ '/images/teaching/online-training-2022.png' | relative_url }}"
          alt="Online COSMIC Training, 2022">
-    <figcaption>Online COSMIC Training, 2022</figcaption>
-  </figure>
+
+  </a>
+
+  <figcaption>Online COSMIC Training, 2022</figcaption>
+
+</figure>
 
   <figure class="training-photo">
     <img src="{{ '/images/teaching/training-2017.jpg' | relative_url }}"
