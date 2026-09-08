@@ -92,3 +92,39 @@ My teaching and professional training activities focus on software measurement, 
 <h2>Selected Organizations</h2>
 
 {% include section-clients.html %}
+
+<div class="training-lightbox" id="training-lightbox">
+  <button class="training-lightbox__close"
+          type="button"
+          aria-label="Close">×</button>
+
+  <img id="training-lightbox-image"
+       src=""
+       alt="Online COSMIC Training, 2022">
+</div>
+
+<script>
+  const posterLink = document.querySelector('.training-poster-link');
+  const lightbox = document.getElementById('training-lightbox');
+  const lightboxImage = document.getElementById('training-lightbox-image');
+  const closeButton = document.querySelector('.training-lightbox__close');
+
+  if (posterLink && lightbox && lightboxImage) {
+    posterLink.addEventListener('click', function(event) {
+      event.preventDefault();
+
+      lightboxImage.src = posterLink.getAttribute('href');
+      lightbox.classList.add('is-open');
+    });
+
+    closeButton.addEventListener('click', function() {
+      lightbox.classList.remove('is-open');
+    });
+
+    lightbox.addEventListener('click', function(event) {
+      if (event.target === lightbox) {
+        lightbox.classList.remove('is-open');
+      }
+    });
+  }
+</script>
