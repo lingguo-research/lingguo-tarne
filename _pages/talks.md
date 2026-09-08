@@ -29,7 +29,7 @@ Selected conference presentations and professional talks related to software mea
 
 <h2>2020</h2>
 
-<div class="talk-card">
+<div class="talk-card talk-card--poster">
 
   <div class="talk-card__content">
     <span class="talk-card__type">APH in China · AgileCxO</span>
@@ -42,7 +42,7 @@ Selected conference presentations and professional talks related to software mea
     </p>
   </div>
 
-  <div class="talk-card__image">
+  <div class="talk-card__image talk-card__image--poster">
     <img src="{{ '/images/talks/aph-china-2020.jpg' | relative_url }}"
          alt="APH in China presentation, April 2020">
   </div>
