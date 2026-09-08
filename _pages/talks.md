@@ -9,8 +9,22 @@ Selected conference presentations and professional talks related to software mea
 
 ## 2024
 
-### Challenges on Standardization of User Stories and COSMIC Sizing
+<div class="talk-card">
 
-**IWSM-MENSURA 2024**  
-École de technologie supérieure (ÉTS), Montréal, Canada  
-September 30, 2024
+  <div class="talk-card__content">
+    <span class="talk-card__type">IWSM-MENSURA 2024</span>
+
+    <h2>Challenges on Standardization of User Stories and COSMIC Sizing</h2>
+
+    <p class="talk-card__meta">
+      École de technologie supérieure (ÉTS), Montréal, Canada<br>
+      September 30, 2024
+    </p>
+  </div>
+
+  <div class="talk-card__image">
+    <img src="{{ '/images/talks/iwsm-mensura-2024.jpg' | relative_url }}"
+         alt="Challenges on Standardization of User Stories and COSMIC Sizing">
+  </div>
+
+</div>
