@@ -1,40 +1,40 @@
 #-------------------------------
-# Clients Settings
-clients_title: Clients
-clients_description: Discover what clients and collaborators say about working together. Real stories of trust, creativity, and meaningful results that highlight the value of each partnership.
+# Selected Organizations
+
+clients_title: Selected Organizations
 clients_section_enable: true
 
 # Logos
 logos:
   enable: true
   logo_image:
-    - alt: "Nintendo"
-      image: "/images/nintendo.svg"
-    - alt: "Gears"
-      image: "/images/gears.svg"
-    - alt: "Twitch"
-      image: "/images/twitch.svg"
-    - alt: "Hulu"
-      image: "/images/hulu.svg"
 
+    - alt: "Shanghai Stock Exchange Technology"
+      image: "/images/clients/sse-technology.png"
 
-client_items:
-  - name: "Martin Edwards"
-    image: "/images/client-1.jpg"
-    designation: "Data Scientist"
-    content : "The incredible attention to detail displayed by this team is commendable. Every aspect of our project, no matter how small, was handled with precision and care. The result is a product that reflects their commitment to excellence."
+    - alt: "Shanghai Futures Information Technology"
+      image: "/images/clients/sfit.png"
 
-  - name: "David Roberts"
-    image: "/images/client-2.jpg"
-    designation: "Designer"
-    content : "Our partnership with this team was characterized by open communication and collaborative efforts. They took the time to understand our goals and delivered a solution that perfectly aligns with our business objectives. Looking forward to future collaborations."
+    - alt: "PwC China"
+      image: "/images/clients/pwc.png"
 
-  - name: "Daniel Carter"
-    image: "/images/client-3.jpg"
-    designation: "DevOps Engineer"
-    content : "Working with this creative powerhouse was an enlightening experience. Their brilliance in design thinking and creative solutions brought our project to life in ways we hadn't imagined. The team's passion for innovation is truly infectious."
+    - alt: "GAC Toyota"
+      image: "/images/clients/gac-toyota.png"
 
-  - name: "Emily Bennett"
-    image: "/images/client-4.jpg"
-    designation: "Product Manager"
-    content : "I was impressed by how seamlessly Marcus integrated into our workflow. His designs improved not just the aesthetics but also the usability of our product. He listens carefully and provides thoughtful solutions that make a real difference."
+    - alt: "Ping An Bank"
+      image: "/images/clients/ping-an-bank.png"
+
+    - alt: "Wuhan Rural Commercial Bank"
+      image: "/images/clients/wuhan-rural-commercial-bank.png"
+
+    - alt: "Beijing Teamsun"
+      image: "/images/clients/teamsun.png"
+
+    - alt: "NSFOCUS"
+      image: "/images/clients/nsfocus.png"
+
+    - alt: "Bank of Ningbo"
+      image: "/images/clients/bank-of-ningbo.png"
+
+    - alt: "China Mobile"
+      image: "/images/clients/china-mobile.png"
