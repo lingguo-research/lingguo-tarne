@@ -998,3 +998,86 @@ a {
 
   transform: translateY(-2px);
 }
+
+
+/* Training Poster Thumbnail */
+
+.training-photo--poster .training-poster-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 360px;
+  height: 240px;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+  background: #f5f6f8;
+}
+
+.training-photo--poster .training-poster-link img {
+  display: block;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  object-fit: contain !important;
+  border-radius: 12px;
+}
+
+.training-poster-link {
+  cursor: zoom-in;
+}
+
+
+/* Training Poster Lightbox */
+
+.training-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 40px 20px;
+  overflow-y: auto;
+
+  background: rgba(0, 0, 0, .85);
+}
+
+.training-lightbox.is-open {
+  display: flex;
+}
+
+.training-lightbox__image,
+#training-lightbox-image {
+  display: block;
+
+  width: auto !important;
+  max-width: min(600px, 90vw) !important;
+  height: auto !important;
+
+  border-radius: 12px;
+}
+
+.training-lightbox__close {
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  z-index: 10000;
+
+  width: 44px;
+  height: 44px;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, .2);
+  color: #fff;
+
+  font-size: 28px;
+  cursor: pointer;
+}
