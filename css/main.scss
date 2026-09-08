@@ -250,41 +250,67 @@ a {
 }
 
 /* Poster-style Talk */
-
-.talk-card--poster {
-  grid-template-columns: minmax(0, 1.2fr) minmax(300px, .8fr);
-}
+/* Poster Thumbnail */
 
 .talk-card__image--poster {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
-.talk-card__image--poster img {
+.talk-poster-link {
+  position: relative;
   display: block;
 
-  width: auto;
-  max-width: 320px;
-  height: auto !important;
+  width: 260px;
+  height: 360px;
 
-  object-fit: contain !important;
+  overflow: hidden;
+  border-radius: 12px;
 
-  border-radius: 10px;
+  background: var(--background-alt-color);
+}
+
+.talk-poster-link img {
+  display: block;
+
+  width: 100%;
+  height: 100% !important;
+
+  object-fit: cover !important;
+  object-position: top;
+
+  transition: transform .25s ease;
+}
+
+.talk-poster-link:hover img {
+  transform: scale(1.02);
+}
+
+.talk-poster-link__text {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+
+  padding: 9px 12px;
+
+  border-radius: 8px;
+
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+
+  color: #fff;
+  background: rgba(15, 30, 50, .82);
 }
 
 @media (max-width: 800px) {
-  .talk-card--poster {
-    grid-template-columns: 1fr;
-  }
-
-  .talk-card__image--poster img {
-    width: 100%;
-    max-width: 320px;
-    height: auto !important;
+  .talk-poster-link {
+    width: 240px;
+    height: 330px;
   }
 }
-
 /* Wider Blog Post Layout */
 
 .post {
