@@ -5,12 +5,23 @@ permalink: /scholarships/
 
 # Scholarships
 
-## Doctoral Scholarship
+<div class="scholarship-card">
 
-### Philanthropic Research Chair in Software Products and Software Projects
+  <span class="scholarship-card__label">
+    Doctoral Scholarship
+  </span>
 
-**École de technologie supérieure (ÉTS), Montréal, Canada**
+  <h2>
+    Philanthropic Research Chair in Software Products and Software Projects
+  </h2>
 
-**CAD 2,500 / month**
+  <p class="scholarship-card__institution">
+    École de technologie supérieure (ÉTS), Montréal, Canada
+  </p>
 
-Doctoral scholarship supporting my PhD studies and research in software measurement and software estimation.
+  <div class="scholarship-card__amount">
+    CAD 2,500 / month
+  </div>
+
+
+</div>
