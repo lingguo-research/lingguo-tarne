@@ -145,3 +145,17 @@
 {% include_relative _4-layouts/clients.scss %}
 /* >>>>>>>>>>>>>> :: 4.6-FAQ (Frequently asked questions) <<<<<<<<<<<<<<< */
 {% include_relative _4-layouts/faq.scss %}
+
+
+/* Academic Color Palette */
+
+:root {
+  --primary-color: #1F4E79;
+  --link-color: #1F4E79;
+}
+
+a {
+  &:hover {
+    color: #1F4E79;
+  }
+}
