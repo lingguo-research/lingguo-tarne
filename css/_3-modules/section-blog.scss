@@ -102,3 +102,22 @@
     }
   }
 }
+
+.section-blog {
+  padding-top: 24px;
+  padding-bottom: 56px;
+}
+
+.blog-section__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.blog-section__head .section__title {
+  margin-bottom: 0;
+  font-size: 28px;
+  line-height: 1.25;
+}
