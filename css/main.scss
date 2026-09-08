@@ -1606,3 +1606,150 @@ a {
   font-size: 15px;
   line-height: 1.7;
 }
+
+/* =========================================
+   CV Page
+   ========================================= */
+
+.page__content .cv-intro-card,
+.page__content .cv-card,
+.page__content .cv-tags,
+.page__content .cv-profile-links {
+  width: 100% !important;
+
+  margin: 22px 0 40px !important;
+  padding: 28px 32px !important;
+
+  border: 1px solid #dfe5ec !important;
+  border-radius: 16px !important;
+  background: #ffffff !important;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .04) !important;
+}
+
+
+/* Hover */
+
+.page__content .cv-card,
+.page__content .cv-intro-card {
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    border-color .2s ease;
+}
+
+.page__content .cv-card:hover,
+.page__content .cv-intro-card:hover {
+  transform: translateY(-2px);
+  border-color: #1F4E79 !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, .08) !important;
+}
+
+
+/* Intro */
+
+.page__content .cv-intro-card h2 {
+  margin: 0 0 14px !important;
+  font-size: 26px;
+}
+
+.page__content .cv-intro-card p:last-child {
+  margin-bottom: 0 !important;
+}
+
+
+/* CV Card */
+
+.page__content .cv-card__label {
+  display: inline-block;
+
+  margin-bottom: 12px;
+  padding: 6px 11px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #1F4E79;
+  background: #f1f4f7;
+}
+
+.page__content .cv-card h3 {
+  margin: 0 0 12px !important;
+
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.page__content .cv-card p:last-child {
+  margin-bottom: 0 !important;
+}
+
+
+/* Tags */
+
+.page__content .cv-tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+}
+
+.page__content .cv-tags span {
+  display: inline-block;
+
+  padding: 9px 14px;
+
+  border-radius: 999px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #1F4E79;
+  background: #f1f4f7;
+}
+
+
+/* Academic Profile Buttons */
+
+.page__content .cv-profile-links {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+}
+
+.page__content .cv-profile-links a {
+  display: inline-block;
+
+  padding: 9px 15px;
+
+  border: 1px solid #dfe5ec;
+  border-radius: 999px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #1F4E79;
+  text-decoration: none !important;
+
+  background: #f1f4f7;
+}
+
+.page__content .cv-profile-links a:hover {
+  border-color: #1F4E79;
+  background: #ffffff;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .page__content .cv-intro-card,
+  .page__content .cv-card,
+  .page__content .cv-tags,
+  .page__content .cv-profile-links {
+    padding: 22px !important;
+  }
+
+}
