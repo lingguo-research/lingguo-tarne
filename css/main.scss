@@ -248,3 +248,39 @@ a {
 .page__content ol {
   max-width: none;
 }
+
+/* Poster-style Talk */
+
+.talk-card--poster {
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, .8fr);
+}
+
+.talk-card__image--poster {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.talk-card__image--poster img {
+  display: block;
+
+  width: auto;
+  max-width: 320px;
+  height: auto !important;
+
+  object-fit: contain !important;
+
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .talk-card--poster {
+    grid-template-columns: 1fr;
+  }
+
+  .talk-card__image--poster img {
+    width: 100%;
+    max-width: 320px;
+    height: auto !important;
+  }
+}
