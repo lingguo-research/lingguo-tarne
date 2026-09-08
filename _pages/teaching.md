@@ -34,6 +34,20 @@ I delivered more than **20 training sessions** through two online training progr
 
 I have also collaborated on the development and production of professional online course materials and instructional videos.
 
-## Training Photos
+<h2>Training Photos</h2>
 
-Selected photos from professional training activities will be presented here.
+<div class="training-gallery">
+
+  <figure class="training-photo">
+    <img src="{{ '/images/teaching/training-2017.jpg' | relative_url }}"
+         alt="Professional COSMIC training, 2017">
+    <figcaption>Professional training, 2017</figcaption>
+  </figure>
+
+  <figure class="training-photo">
+    <img src="{{ '/images/teaching/training-2016.jpg' | relative_url }}"
+         alt="Professional COSMIC training, 2016">
+    <figcaption>Internal Management Process Training, 2016</figcaption>
+  </figure>
+
+</div>
