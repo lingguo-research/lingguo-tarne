@@ -1358,3 +1358,156 @@ a {
   }
 
 }
+
+/* =========================================
+   FINAL Professional Experience Page
+   ========================================= */
+
+/* Experience Cards */
+
+.page__content .experience-page-card {
+  display: block !important;
+  width: 100% !important;
+
+  margin: 24px 0 !important;
+  padding: 28px 32px !important;
+
+  border: 1px solid #dfe5ec !important;
+  border-radius: 16px !important;
+  background: #ffffff !important;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .04) !important;
+}
+
+.page__content .experience-page-card:hover {
+  transform: translateY(-2px);
+  border-color: #1F4E79 !important;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, .08) !important;
+}
+
+
+/* Header: title left, year right */
+
+.page__content .experience-page-card__header {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+
+  margin-bottom: 18px;
+}
+
+
+/* Consulting / Quality Management label */
+
+.page__content .experience-page-card__label {
+  display: inline-block !important;
+
+  margin-bottom: 10px;
+  padding: 6px 11px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #1F4E79;
+  background: #f1f4f7;
+}
+
+
+/* Job title */
+
+.page__content .experience-page-card h2 {
+  margin: 0 !important;
+
+  font-size: 25px;
+  line-height: 1.35;
+}
+
+
+/* Date */
+
+.page__content .experience-page-card__date {
+  display: inline-block !important;
+  flex-shrink: 0;
+
+  padding: 7px 12px;
+
+  border-radius: 999px;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  color: #1F4E79;
+  background: #f1f4f7;
+}
+
+
+/* Body */
+
+.page__content .experience-page-card p {
+  margin: 0 0 14px !important;
+
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.page__content .experience-page-card ul {
+  margin: 10px 0 0 20px !important;
+}
+
+.page__content .experience-page-card li {
+  margin-bottom: 5px;
+}
+
+
+/* =========================================
+   Professional Expertise
+   ========================================= */
+
+.page__content .expertise-card {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+
+  width: 100% !important;
+
+  margin: 24px 0 48px !important;
+  padding: 28px !important;
+
+  border: 1px solid #dfe5ec !important;
+  border-radius: 16px !important;
+  background: #ffffff !important;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .04) !important;
+}
+
+
+/* Expertise pills */
+
+.page__content .expertise-card span {
+  display: inline-block !important;
+
+  padding: 9px 14px !important;
+
+  border-radius: 999px !important;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #1F4E79 !important;
+  background: #f1f4f7 !important;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .page__content .experience-page-card__header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+}
