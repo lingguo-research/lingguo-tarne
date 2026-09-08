@@ -38,6 +38,30 @@ I have also collaborated on the development and production of professional onlin
 
 <div class="training-gallery">
 
+ <h2>Training Photos</h2>
+
+<div class="training-gallery">
+
+  <figure class="training-photo">
+    <img src="{{ '/images/teaching/online-training-2022.jpg' | relative_url }}"
+         alt="COSMIC online training, 2022">
+    <figcaption>COSMIC online training, 2022</figcaption>
+  </figure>
+
+  <figure class="training-photo">
+    <img src="{{ '/images/teaching/training-2016.jpg' | relative_url }}"
+         alt="Internal Management Process Training, 2016">
+    <figcaption>Internal Management Process Training, 2016</figcaption>
+  </figure>
+
+  <figure class="training-photo training-photo--poster">
+    <img src="{{ '/images/teaching/online-training-2022.png' | relative_url }}"
+         alt="COSMIC Online Training, 2022">
+    <figcaption>Online COSMIC Training, 2022</figcaption>
+  </figure>
+
+</div>
+
   <figure class="training-photo">
     <img src="{{ '/images/teaching/training-2017.jpg' | relative_url }}"
          alt="Professional COSMIC training, 2017">
@@ -49,6 +73,8 @@ I have also collaborated on the development and production of professional onlin
          alt="Professional COSMIC training, 2016">
     <figcaption>Internal Management Process Training, 2016</figcaption>
   </figure>
+
+  
 
 </div>
 
