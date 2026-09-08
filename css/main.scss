@@ -623,3 +623,12 @@ a {
     height: auto;
   }
 }
+
+/* Vertical training poster */
+
+.training-photo--poster img {
+  width: 360px;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
