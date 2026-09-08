@@ -1081,3 +1081,157 @@ a {
   font-size: 28px;
   cursor: pointer;
 }
+
+/* =========================================
+   FINAL Teaching & Training Page
+   ========================================= */
+
+
+/* Professional Training */
+
+.page__content .teaching-card {
+  display: block;
+  width: 100%;
+
+  margin: 18px 0;
+  padding: 24px 28px;
+
+  border: 1px solid #dfe5ec;
+  border-radius: 16px;
+  background: #ffffff;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .04);
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    border-color .2s ease;
+}
+
+.page__content .teaching-card:hover {
+  transform: translateY(-2px);
+  border-color: #1F4E79;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, .08);
+}
+
+.page__content .teaching-card h3 {
+  margin: 0 0 10px;
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.page__content .teaching-card p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   Training Photos
+   ========================================= */
+
+.page__content .training-gallery {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+
+  width: 100%;
+  margin: 24px 0 48px !important;
+  padding: 28px;
+
+  border: 1px solid #dfe5ec;
+  border-radius: 16px;
+  background: #ffffff;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .04);
+}
+
+.page__content .training-photo {
+  width: 100%;
+  min-width: 0;
+  margin: 0 !important;
+}
+
+
+/* 2017 + 2016 */
+
+.page__content .training-photo > img {
+  display: block;
+
+  width: 100% !important;
+  height: 210px !important;
+
+  object-fit: cover !important;
+  object-position: center;
+
+  border-radius: 12px;
+}
+
+
+/* 2022 poster: same thumbnail size */
+
+.page__content .training-photo--poster .training-poster-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  width: 100% !important;
+  height: 210px !important;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+  background: #f5f6f8;
+
+  cursor: zoom-in;
+}
+
+.page__content .training-photo--poster .training-poster-link img {
+  display: block;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  object-fit: contain !important;
+  object-position: center !important;
+
+  border-radius: 12px;
+}
+
+
+/* Captions */
+
+.page__content .training-photo figcaption {
+  margin-top: 9px;
+
+  font-size: 14px;
+  line-height: 1.5;
+
+  color: var(--text-alt-color);
+}
+
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+  .page__content .training-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .page__content .training-gallery {
+    grid-template-columns: 1fr !important;
+    padding: 20px;
+  }
+
+  .page__content .training-photo > img,
+  .page__content .training-photo--poster .training-poster-link {
+    height: 220px !important;
+  }
+
+}
