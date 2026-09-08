@@ -461,3 +461,118 @@ a {
 .talk-card--poster .talk-poster-link:hover {
   text-decoration: none !important;
 }
+
+/* Academic Project Detail */
+
+.project-detail {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 0 64px;
+}
+
+.project-detail__header {
+  max-width: 980px;
+  margin: 0 auto 36px;
+  text-align: center;
+}
+
+.project-detail__label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.project-detail__title {
+  margin: 0 0 16px;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.project-detail__description {
+  max-width: 820px;
+  margin: 0 auto 24px;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--text-alt-color);
+}
+
+.project-detail__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  padding-top: 18px;
+  border-top: 1px solid var(--border-color);
+}
+
+.project-detail__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-detail__author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.project-detail__image {
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+.project-detail__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.project-detail__content {
+  max-width: 980px;
+  margin: 0 auto;
+
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.project-detail__navigation {
+  max-width: 980px;
+  margin: 48px auto 0;
+}
+
+.project-related {
+  padding-top: 24px;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 700px) {
+  .project-detail {
+    padding-top: 32px;
+  }
+
+  .project-detail__header {
+    text-align: left;
+  }
+
+  .project-detail__title {
+    font-size: 32px;
+  }
+
+  .project-detail__description {
+    font-size: 16px;
+  }
+
+  .project-detail__meta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .project-detail__content {
+    font-size: 16px;
+  }
+}
