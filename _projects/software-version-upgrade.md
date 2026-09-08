@@ -1,7 +1,7 @@
 ---
 title: COSMIC Measurement of a Software Version Upgrade
 description: A case study of a software version upgrade measured using the COSMIC ISO standard, with a focus on measurement and management lessons.
-date: 2026-09-01 07:00:00 -0400
+order: 4
 label: Software Measurement
 image: '/images/project-version-upgrade.jpg'
 featured: true
