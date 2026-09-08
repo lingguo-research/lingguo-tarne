@@ -160,3 +160,69 @@ a {
   }
 }
 
+/* Talks */
+
+.talk-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, .6fr);
+  gap: 40px;
+  align-items: center;
+
+  margin: 24px 0 48px;
+  padding: 32px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  background: var(--background-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .04);
+}
+
+.talk-card__type {
+  display: inline-block;
+  margin-bottom: 14px;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.talk-card__content h2 {
+  margin: 0 0 16px;
+  font-size: 26px;
+  line-height: 1.35;
+}
+
+.talk-card__meta {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-alt-color);
+}
+
+.talk-card__image img {
+  display: block;
+  width: 100%;
+  height: 230px;
+
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 800px) {
+  .talk-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .talk-card__image img {
+    height: auto;
+  }
+
+  .talk-card__content h2 {
+    font-size: 22px;
+  }
+}
