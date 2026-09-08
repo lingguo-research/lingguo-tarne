@@ -790,3 +790,39 @@ a {
     height: auto;
   }
 }
+
+/* Conference Paper Cards */
+
+.conference-paper-card {
+  margin: 24px 0;
+  padding: 28px 32px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  background: var(--background-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .04);
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    border-color .2s ease;
+}
+
+.conference-paper-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary-color);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, .08);
+}
+
+.conference-paper-card h3 {
+  margin: 0 0 14px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.conference-paper-card__authors {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-alt-color);
+}
