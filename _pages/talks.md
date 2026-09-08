@@ -27,4 +27,24 @@ Selected conference presentations and professional talks related to software mea
          alt="Challenges on Standardization of User Stories and COSMIC Sizing">
   </div>
 
+<h2>2020</h2>
+
+<div class="talk-card">
+
+  <div class="talk-card__content">
+    <span class="talk-card__type">APH in China · AgileCxO</span>
+
+    <h2>APH in China</h2>
+
+    <p class="talk-card__meta">
+      Presentation on the Chinese edition of the Agile Performance Holarchy (APH)<br>
+      April 2020
+    </p>
+  </div>
+
+  <div class="talk-card__image">
+    <img src="{{ '/images/talks/aph-china-2020.jpg' | relative_url }}"
+         alt="APH in China presentation, April 2020">
+  </div>
+
 </div>
