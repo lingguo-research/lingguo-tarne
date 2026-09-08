@@ -9,11 +9,34 @@ permalink: /publications/
 
 ### 2026
 
-**Sizing Software Application Generators: A Case Study of the SimSE Educational Games Generator for Software Engineering Students**  
-Ling Guo, Sion Israel Sion, Alain Abran, Monica Villavicencio, Jean-Marc Desharnais.
+<div class="conference-paper-card">
 
-**A Software Version Upgrade sized with the COSMIC ISO standard: Management Lessons Learned from a Case Study**  
-Ling Guo, Sion Israel Sion, Monica Villavicencio, Alain Abran, Jean-Marc Desharnais.
+  <span class="conference-paper-card__label">Conference Paper</span>
+
+  <h3>
+    Sizing Software Application Generators: A Case Study of the SimSE Educational Games Generator for Software Engineering Students
+  </h3>
+
+  <p class="conference-paper-card__authors">
+    <strong>Ling Guo</strong>, Sion Israel Sion, Alain Abran, Monica Villavicencio, Jean-Marc Desharnais.
+  </p>
+
+</div>
+
+
+<div class="conference-paper-card">
+
+  <span class="conference-paper-card__label">Conference Paper</span>
+
+  <h3>
+    A Software Version Upgrade sized with the COSMIC ISO standard: Management Lessons Learned from a Case Study
+  </h3>
+
+  <p class="conference-paper-card__authors">
+    <strong>Ling Guo</strong>, Sion Israel Sion, Monica Villavicencio, Alain Abran, Jean-Marc Desharnais.
+  </p>
+
+</div>
 
 
 <h2>Translations</h2>
