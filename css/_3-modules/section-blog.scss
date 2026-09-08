@@ -103,6 +103,8 @@
   }
 }
 
+/* Academic Homepage Blog */
+
 .section-blog {
   padding-top: 24px;
   padding-bottom: 56px;
@@ -120,4 +122,54 @@
   margin-bottom: 0;
   font-size: 28px;
   line-height: 1.25;
+}
+
+.blog-section__link {
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Three equal columns on desktop */
+.section-blog .grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 0;
+}
+
+.section-blog .grid__post {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Keep all cards aligned */
+.section-blog .article {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .section-blog .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .blog-section__head {
+    align-items: flex-end;
+  }
+
+  .blog-section__head .section__title {
+    font-size: 24px;
+  }
+
+  .section-blog .grid {
+    grid-template-columns: 1fr;
+  }
 }
