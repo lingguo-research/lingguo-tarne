@@ -9,9 +9,8 @@ permalink: /publications/
 
 ### 2026
 
-<div class="conference-paper-card">
 
-  <span class="conference-paper-card__label">Conference Paper</span>
+<div class="conference-paper-card">
 
   <h3>
     Sizing Software Application Generators: A Case Study of the SimSE Educational Games Generator for Software Engineering Students
@@ -23,10 +22,7 @@ permalink: /publications/
 
 </div>
 
-
 <div class="conference-paper-card">
-
-  <span class="conference-paper-card__label">Conference Paper</span>
 
   <h3>
     A Software Version Upgrade sized with the COSMIC ISO standard: Management Lessons Learned from a Case Study
@@ -38,6 +34,8 @@ permalink: /publications/
 
 </div>
 
+
+<h2>Translations</h2>
 
 <h2>Translations</h2>
 
