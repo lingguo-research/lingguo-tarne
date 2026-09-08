@@ -3,7 +3,6 @@ title: "CV"
 permalink: /cv/
 ---
 
-# Curriculum Vitae
 
 <div class="cv-intro-card">
 
