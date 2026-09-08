@@ -7,45 +7,61 @@ permalink: /teaching/
 
 My teaching and professional training activities focus on software measurement, COSMIC functional size measurement, software estimation, and related software engineering practices.
 
-## Professional COSMIC Training
 
-I have delivered professional COSMIC training to practitioners from organizations including:
+<h2>Professional Training</h2>
 
-- Shanghai Stock Exchange Technology
-- Shanghai Futures Information Technology
-- PwC China
-- GAC Toyota
-- Ping An Bank
-- Wuhan Rural Commercial Bank
-- Beijing Teamsun
-- NSFOCUS
-- Ningbo Bank
-- China Mobile
+<div class="teaching-card">
 
-## Online Open Classes
+  <h3>Professional COSMIC Training</h3>
 
-I delivered **six free online open classes** on software measurement and COSMIC, with more than **1,000 participants**.
+  <p>
+    I have delivered professional COSMIC training to practitioners from organizations including Shanghai Stock Exchange Technology, Shanghai Futures Information Technology, PwC China, GAC Toyota, Ping An Bank, Wuhan Rural Commercial Bank, Beijing Teamsun, NSFOCUS, Ningbo Bank, and China Mobile.
+  </p>
 
-## Online Training Programs
+</div>
 
-I delivered more than **20 training sessions** through two online training programs, reaching more than **200 participants**.
 
-## Professional Course Development
+<div class="teaching-card">
 
-I have also collaborated on the development and production of professional online course materials and instructional videos.
+  <h3>Online Open Classes</h3>
+
+  <p>
+    I delivered <strong>six free online open classes</strong> on software measurement and COSMIC, with more than <strong>1,000 participants</strong>.
+  </p>
+
+</div>
+
+
+<div class="teaching-card">
+
+  <h3>Online Training Programs</h3>
+
+  <p>
+    I delivered more than <strong>20 training sessions</strong> through two online training programs, reaching more than <strong>200 participants</strong>.
+  </p>
+
+</div>
+
+
+<div class="teaching-card">
+
+  <h3>Professional Course Development</h3>
+
+  <p>
+    I have also collaborated on the development and production of professional online course materials and instructional videos.
+  </p>
+
+</div>
+
 
 <h2>Training Photos</h2>
 
 <div class="training-gallery">
 
- <h2>Training Photos</h2>
-
-<div class="training-gallery">
-
   <figure class="training-photo">
-    <img src="{{ '/images/teaching/online-training-2022.jpg' | relative_url }}"
-         alt="COSMIC online training, 2022">
-    <figcaption>COSMIC online training, 2022</figcaption>
+    <img src="{{ '/images/teaching/training-2017.jpg' | relative_url }}"
+         alt="Professional COSMIC training, 2017">
+    <figcaption>Professional training, 2017</figcaption>
   </figure>
 
   <figure class="training-photo">
@@ -56,15 +72,13 @@ I have also collaborated on the development and production of professional onlin
 
   <figure class="training-photo training-photo--poster">
     <img src="{{ '/images/teaching/online-training-2022.png' | relative_url }}"
-         alt="COSMIC Online Training, 2022">
+         alt="Online COSMIC Training, 2022">
     <figcaption>Online COSMIC Training, 2022</figcaption>
   </figure>
 
 </div>
-  
-
-</div>
 
 
-## Selected Organizations
+<h2>Selected Organizations</h2>
+
 {% include section-clients.html %}
