@@ -12,7 +12,7 @@ My teaching and professional training activities focus on software measurement, 
 
 <div class="teaching-card">
 
-  <h3>Professional COSMIC Training</h3>
+  <h3>COSMIC Training</h3>
 
   <p>
     I have delivered professional COSMIC training to practitioners from organizations including Shanghai Stock Exchange Technology, Shanghai Futures Information Technology, PwC China, GAC Toyota, Ping An Bank, Wuhan Rural Commercial Bank, Beijing Teamsun, NSFOCUS, Ningbo Bank, and China Mobile.
