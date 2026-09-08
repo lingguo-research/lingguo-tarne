@@ -960,3 +960,41 @@ a {
     padding: 22px;
   }
 }
+/* Force Conference Paper Cards */
+
+.page__content .conference-paper-card {
+  display: block !important;
+  width: 100% !important;
+
+  margin: 24px 0 !important;
+  padding: 28px 32px !important;
+
+  border: 1px solid #dfe5ec !important;
+  border-radius: 16px !important;
+
+  background: #ffffff !important;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .05) !important;
+}
+
+.page__content .conference-paper-card h3 {
+  margin: 0 0 14px !important;
+
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.page__content .conference-paper-card p {
+  margin: 0 !important;
+
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.page__content .conference-paper-card:hover {
+  border-color: #1F4E79 !important;
+
+  box-shadow: 0 14px 32px rgba(0, 0, 0, .08) !important;
+
+  transform: translateY(-2px);
+}
