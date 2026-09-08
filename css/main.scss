@@ -226,3 +226,25 @@ a {
     font-size: 22px;
   }
 }
+
+/* Full-width Academic Pages */
+
+.page-hero,
+.page-hero__inner,
+.page-head,
+.page,
+.page__content {
+  width: 100%;
+  max-width: none !important;
+}
+
+.page__content {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.page__content p,
+.page__content ul,
+.page__content ol {
+  max-width: none;
+}
