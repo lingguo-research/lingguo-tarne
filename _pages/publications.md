@@ -37,8 +37,6 @@ permalink: /publications/
 
 <h2>Translations</h2>
 
-<h2>Translations</h2>
-
 <div class="translation-card">
 
   <div class="translation-card__image">
