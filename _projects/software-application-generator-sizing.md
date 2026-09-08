@@ -1,7 +1,7 @@
 ---
 title: Functional Sizing of a Software Application Generator
 description: A case study applying COSMIC functional size measurement to the SimSE educational game generator and its generated software products.
-date: 2026-09-01 08:00:00 -0400
+order: 3
 label: COSMIC
 image: '/images/project-application-generator.jpg'
 featured: true
