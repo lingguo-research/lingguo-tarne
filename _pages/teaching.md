@@ -23,10 +23,10 @@ My teaching and professional training activities focus on software measurement, 
 
 <div class="teaching-card">
 
-  <h3>Online Open Classes</h3>
+  <h3>Online Classes</h3>
 
   <p>
-    I delivered <strong>six free online open classes</strong> on software measurement and COSMIC, with more than <strong>1,000 participants</strong>.
+    I delivered <strong>multiple online classes</strong> on software measurement and COSMIC, with more than <strong>1,000 participants</strong>.
   </p>
 
 </div>
