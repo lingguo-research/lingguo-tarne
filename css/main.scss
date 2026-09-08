@@ -576,3 +576,50 @@ a {
     font-size: 16px;
   }
 }
+
+/* Teaching Training Photos */
+
+.training-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 360px);
+  gap: 24px;
+
+  margin: 24px 0 40px;
+}
+
+.training-photo {
+  margin: 0;
+}
+
+.training-photo img {
+  display: block;
+
+  width: 360px;
+  height: 240px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 12px;
+}
+
+.training-photo figcaption {
+  margin-top: 8px;
+
+  font-size: 14px;
+  line-height: 1.5;
+
+  color: var(--text-alt-color);
+}
+
+@media (max-width: 800px) {
+  .training-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .training-photo img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+  }
+}
