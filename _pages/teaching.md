@@ -61,19 +61,6 @@ I have also collaborated on the development and production of professional onlin
   </figure>
 
 </div>
-
-  <figure class="training-photo">
-    <img src="{{ '/images/teaching/training-2017.jpg' | relative_url }}"
-         alt="Professional COSMIC training, 2017">
-    <figcaption>Professional training, 2017</figcaption>
-  </figure>
-
-  <figure class="training-photo">
-    <img src="{{ '/images/teaching/training-2016.jpg' | relative_url }}"
-         alt="Professional COSMIC training, 2016">
-    <figcaption>Internal Management Process Training, 2016</figcaption>
-  </figure>
-
   
 
 </div>
