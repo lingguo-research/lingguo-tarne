@@ -2,37 +2,23 @@
 <!-- section-blog -->
 <section class="section section-blog">
   <div class="container">
-    <div class="row">
 
-      <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+    <div class="section__head blog-section__head">
+      <h2 class="section__title">Latest Blog Posts</h2>
 
-        <div class="section__head">
-          {% if site.data.settings.blog.blog_title %}
-          <h2 class="section__title">{{ site.data.settings.blog.blog_title }}</h2>
-          {% endif %}
-          <div class="blog__view">
-            <div class="blog__toggle">
-              <div class="icon">
-                <div class="icon-bar"></div>
-                <div class="icon-bar"></div>
-                <div class="icon-bar"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row grid">
-          {% if site.posts.size > 0 %}
-            {% for post in paginator.posts %}
-              {% include article.html class="article--flexible col col-6 col-t-12 grid__post" %}
-            {% endfor %}
-          {% endif %}
-        </div>
-        {% include pagination.html %}
-
-      </div>
-
+      <a href="{{ '/blog/' | relative_url }}" class="blog-section__link">
+        View All Posts →
+      </a>
     </div>
+
+    <div class="row grid">
+      {% if site.posts.size > 0 %}
+        {% for post in site.posts limit:3 %}
+          {% include article.html class="article--flexible col col-4 col-d-6 col-t-12 grid__post" %}
+        {% endfor %}
+      {% endif %}
+    </div>
+
   </div>
 </section>
 <!-- section-blog -->
