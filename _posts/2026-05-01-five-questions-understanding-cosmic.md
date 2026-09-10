@@ -1,6 +1,6 @@
 
 ---
-title: Five Questions That Test Your Understanding of COSMIC Functional Size Measurement"
+title: "Five Questions That Test Your Understanding of COSMIC Functional Size Measurement"
 date: 2026-05-01
 permalink: /posts/five-questions-cosmic/
 tags:
