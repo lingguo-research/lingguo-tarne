@@ -1,8 +1,14 @@
+
 ---
-layout: post
-title: "Five Questions That Test Your Understanding of COSMIC Functional Size Measurement"
-permalink: /blog/five-questions-cosmic/
+title: Five Questions That Test Your Understanding of COSMIC Functional Size Measurement"
+date: 2026-05-01
+permalink: /posts/five-questions-cosmic/
+tags:
+  - COSMIC
+  - Software Measurement
+  - Functional Size Measurement
 ---
+
 
 When delivering training on the **COSMIC Functional Size Measurement (FSM) method**, I often receive similar questions from participants.
 
