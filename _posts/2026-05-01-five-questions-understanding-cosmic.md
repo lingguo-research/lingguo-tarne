@@ -1,4 +1,3 @@
-
 ---
 title: "Five Questions That Test Your Understanding of COSMIC Functional Size Measurement"
 date: 2026-05-01
