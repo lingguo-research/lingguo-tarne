@@ -1,6 +1,7 @@
 ---
+layout: post
 title: "Five Questions That Test Your Understanding of COSMIC Functional Size Measurement"
-permalink: /posts/five-questions-understanding-cosmic-functional-size-measurement/
+permalink: /blog/five-questions-cosmic/
 ---
 
 When delivering training on the **COSMIC Functional Size Measurement (FSM) method**, I often receive similar questions from participants.
@@ -10,6 +11,8 @@ At first glance, these questions may appear to concern specific COSMIC rules. In
 Here are five questions that I frequently encounter.
 
 Before reading my answers, try answering them yourself. Write down a few keywords for each question and see whether your reasoning covers both the COSMIC method itself and the broader purpose of software measurement.
+
+![Eight Characteristics of COSMIC]({{ '/images/blog/five-questions-cosmic/five-questions-cosmic-01.jpg' | relative_url }})
 
 ---
 
@@ -37,6 +40,10 @@ A more important question is:
 **What is the purpose of the measurement, and at what point in the software life cycle do we need the size information?**
 
 The appropriate source of information for identifying the FUR depends largely on that measurement purpose.
+
+![COSMIC Software Context Model]({{ '/images/blog/five-questions-cosmic/five-questions-cosmic-06.jpg' | relative_url }})
+
+![Generic Software Model in COSMIC]({{ '/images/blog/five-questions-cosmic/five-questions-cosmic-07.jpg' | relative_url }})
 
 ---
 
@@ -66,6 +73,8 @@ Organizations often consider replacing or improving an existing sizing approach 
 
 Therefore, before introducing a new functional sizing method across an organization, it can be useful to first evaluate the existing method using actual project data and make the decision based on evidence.
 
+![Development Effort versus Requirement Points]({{ '/images/blog/five-questions-cosmic/five-questions-cosmic-02.jpg' | relative_url }})
+
 ---
 
 ## 3. Why should we use COSMIC for functional size measurement?
@@ -91,6 +100,8 @@ In many practical applications, the objective is to determine whether the measur
 Where necessary, organizational measurement conventions may also be established while remaining consistent with the underlying COSMIC principles.
 
 The decision to deploy COSMIC more broadly should therefore be supported by both **measurement principles and empirical evidence from the organization's own projects**.
+
+![COSMIC Function Points versus Actual Effort]({{ '/images/blog/five-questions-cosmic/five-questions-cosmic-03.jpg' | relative_url }})
 
 ---
 
@@ -122,6 +133,8 @@ and
 
 Training is only the beginning. Practical measurement, feedback, calibration, and organizational integration complete the process.
 
+![Three Phases for Introducing COSMIC]({{ '/images/blog/five-questions-cosmic/five-questions-cosmic-04.jpg' | relative_url }})
+
 ---
 
 ## 5. Our requirements are too vague to measure functional points. How can we use COSMIC?
@@ -144,6 +157,8 @@ COSMIC also provides guidance for early or approximate functional sizing when re
 The key is to select a sizing approach appropriate to the available level of requirements information and then evaluate whether the resulting size measure is useful for its intended purpose.
 
 For example, if the objective is effort estimation, historical data can be used to investigate the relationship between the selected size indicator and actual effort.
+
+![Development Effort versus Number of Requirements]({{ '/images/blog/five-questions-cosmic/five-questions-cosmic-05.jpg' | relative_url }})
 
 As requirements become more detailed, the measurement can progressively move toward a more detailed COSMIC functional size expressed in **COSMIC Function Points (CFP)**.
 
