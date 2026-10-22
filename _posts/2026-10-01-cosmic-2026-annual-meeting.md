@@ -50,6 +50,8 @@ Collecting, analysing, and sharing practical experience is therefore essential t
 
 As software engineering evolves from traditional development to agile practices and AI-assisted development, the contexts in which COSMIC is applied are also expanding.
 
+![ COSMIC 2026 Annual Meeting in Izmir, Türkiye](/images/blog/cosmic-2026-annual-meeting/meeting.jpg)
+
 ## Three Key Projects
 
 The annual meeting included progress reports on three important initiatives:
