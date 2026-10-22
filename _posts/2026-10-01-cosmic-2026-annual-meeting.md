@@ -1,7 +1,6 @@
-
 ---
 title: "COSMIC 2026: Highlights from IWSM–MENSURA and the COSMIC Annual Meeting"
-date: 2026-10-21
+date: 2026-10-01
 categories:
   - Software Measurement
   - COSMIC
@@ -12,6 +11,7 @@ tags:
   - Software Measurement
   - Software Estimation
   - Artificial Intelligence
+  - Quantum Measurement
 ---
 
 The International Workshop on Software Measurement (IWSM) and the International Conference on Software and Systems Process and Product Measurement (MENSURA) bring together academic researchers and industry practitioners to exchange ideas, validate new approaches, and discuss practical improvements in software measurement.
