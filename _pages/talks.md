@@ -7,6 +7,65 @@ permalink: /talks/
 
 Selected conference presentations and professional talks related to software measurement, software estimation, and COSMIC functional size measurement.
 
+
+## 2026
+
+<div class="talk-card">
+
+  <div class="talk-card__content">
+    <span class="talk-card__type">IWSM–MENSURA 2026 · Research Presentations</span>
+
+    <h2>A Software Version Upgrade Sized with the COSMIC ISO Standard: Management Lessons Learned from a Case Study</h2>
+
+    <p class="talk-card__meta">
+      <strong>Best Paper Award</strong><br>
+      IWSM–MENSURA 2026<br>
+      İzmir, Türkiye · September 2026
+    </p>
+
+    <h2>Sizing Software Application Generators: A Case Study of the SimSE Educational Games Generator for Software Engineering Students</h2>
+
+    <p class="talk-card__meta">
+      IWSM–MENSURA 2026<br>
+      İzmir, Türkiye · September 2026
+    </p>
+  </div>
+
+  <div class="talk-card__image">
+    <a href="{{ '/images/talks/iwsm-mensura-2026-papers.jpg' | relative_url }}"
+       class="talk-poster-link">
+      <img src="{{ '/images/talks/iwsm-mensura-2026-papers.jpg' | relative_url }}"
+           alt="Presentations of two research papers at IWSM–MENSURA 2026">
+    </a>
+  </div>
+
+</div>
+
+<div class="talk-card">
+
+  <div class="talk-card__content">
+    <span class="talk-card__type">IWSM–MENSURA 2026 · Hands-on Workshop</span>
+
+    <h2>World Première: Software Estimation Educational Games</h2>
+
+    <p class="talk-card__meta">
+      A Two-Hour Hands-on Conference Workshop<br>
+      IWSM–MENSURA 2026<br>
+      İzmir, Türkiye · September 2026
+    </p>
+  </div>
+
+  <div class="talk-card__image">
+    <a href="{{ '/images/talks/software-estimation-games-workshop.jpg' | relative_url }}"
+       class="talk-poster-link">
+      <img src="{{ '/images/talks/software-estimation-games-workshop.jpg' | relative_url }}"
+           alt="World Première: Software Estimation Educational Games — A Two-Hour Hands-on Conference Workshop">
+    </a>
+  </div>
+
+</div>
+
+
 ## 2024
 
 <div class="talk-card">
