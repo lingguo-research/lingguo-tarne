@@ -32,9 +32,9 @@ Selected conference presentations and professional talks related to software mea
   </div>
 
   <div class="talk-card__image">
-    <a href="{{ '/images/talks/1iwsm-mensura-2026-papers.jpg' | relative_url }}"
+    <a href="{{ '/images/talks/1iwsm-mensura-2026-papers.png' | relative_url }}"
        class="talk-poster-link">
-      <img src="{{ '/images/talks/iwsm-mensura-2026-papers.jpg' | relative_url }}"
+      <img src="{{ '/images/talks/iwsm-mensura-2026-papers.png' | relative_url }}"
            alt="Two research paper presentations at IWSM–MENSURA 2026">
     </a>
   </div>
