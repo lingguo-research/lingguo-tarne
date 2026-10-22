@@ -53,7 +53,7 @@ I have approximately ten years of professional experience in software project ma
       <span class="experience-page-card__label">Research & Education</span>
       <h2>Member in Educational Simulator for Software Estimation Project</h2>
     </div>
-    <span class="experience-page-card__date">anuary 2024 – Present</span>
+    <span class="experience-page-card__date">January 2024 – Present</span>
   </div>
 
   <p><a href="https://cosmic-sizing.org/educational-simulator-for-software-estimation/">Educational Simulator for Software Estimation</a></p>
