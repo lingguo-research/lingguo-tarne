@@ -43,27 +43,47 @@ permalink: /cv/
 <h2>Professional Experience</h2>
 
 <div class="cv-card">
-
-  <span class="cv-card__label">2016–2023</span>
-
-  <h3>COSMIC &amp; CMMI Consultant</h3>
-
+  <span class="cv-card__label">September 2026–Present</span>
+  <h3>Chair of the Certification Committee</h3>
   <p>
-    Professional consulting and training in software measurement, COSMIC functional size measurement, CMMI, software estimation, and software project management.
+    COSMIC (Common Software Measurement International Consortium).
+    Responsible for contributing to certification activities related to
+    COSMIC software measurement.
   </p>
-
 </div>
 
 <div class="cv-card">
+  <span class="cv-card__label">September 2026–Present</span>
+  <h3>Member, Measurement Practices Committee</h3>
+  <p>
+    COSMIC (Common Software Measurement International Consortium).
+    Contributing to the development and improvement of COSMIC measurement practices.
+  </p>
+</div>
 
+<div class="cv-card">
+  <span class="cv-card__label">January 2024–Present</span>
+  <h3>Member, Educational Simulator for Software Estimation Project</h3>
+  <p>
+    COSMIC (Common Software Measurement International Consortium).
+    Contributing to an educational project focused on software estimation.
+  </p>
+</div>
+
+<div class="cv-card">
+  <span class="cv-card__label">2016–2023</span>
+  <h3>COSMIC &amp; CMMI Consultant</h3>
+  <p>
+    Professional consulting and training in software measurement, COSMIC functional size measurement, CMMI, software estimation, and software project management.
+  </p>
+</div>
+
+<div class="cv-card">
   <span class="cv-card__label">2013–2016</span>
-
   <h3>Quality Engineer</h3>
-
   <p>
     Software quality assurance, process improvement, and software project management.
   </p>
-
 </div>
 
 
