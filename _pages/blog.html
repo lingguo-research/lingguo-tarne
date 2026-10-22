@@ -30,6 +30,10 @@ permalink: /blog/
         </div>
         {% endif %}
 
+        <p class="blog-archive__date">
+          {{ post.date | date: "%b %d, %Y" }}
+        </p>
+
         <h2 class="blog-archive__title">
           <a href="{{ post.url | relative_url }}">
             {{ post.title }}
