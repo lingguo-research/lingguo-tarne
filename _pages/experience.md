@@ -7,14 +7,22 @@ permalink: /experience/
 
 I have approximately ten years of professional experience in software project management, software measurement, consulting, quality management, and professional training.
 
+
 <div class="experience-page-card">
-  <div>
-    <span class="experience-page-card__label">Committee Leadership</span>
-    <h2>Chair of the Certification Committee</h2>
+  <div class="experience-page-card__header">
+    <div>
+      <span class="experience-page-card__label">Committee Leadership</span>
+      <h2>Chair of the Certification Committee</h2>
+    </div>
+    <span class="experience-page-card__date">September 2026 – Present</span>
   </div>
 
-  <span class="experience-page-card__date">September 2026 – Present</span>
-  <p><a href="https://cosmic-sizing.org/organization/committees/certification-committee/">Certification Committee</a></p>
+  <p>
+    <a href="https://cosmic-sizing.org/organization/committees/certification-committee/">
+      Certification Committee
+    </a>
+  </p>
+
   <ul>
     <li>Lead the development and maintenance of examinations that certify users' competence in the COSMIC method at different levels.</li>
     <li>Oversee the certification examination process, including scheduling, administration, examination documentation, and issuing certificates to successful candidates.</li>
@@ -22,12 +30,14 @@ I have approximately ten years of professional experience in software project ma
 </div>
 
 <div class="experience-page-card">
-  <div>
-    <span class="experience-page-card__label">Committee Membership</span>
-    <h2>Member of the Measurement Practices Committee</h2>
+  <div class="experience-page-card__header">
+    <div>
+      <span class="experience-page-card__label">Committee Membership</span>
+      <h2>Member of the Measurement Practices Committee</h2>
+    </div>
+    <span class="experience-page-card__date">September 2026 – Present</span>
   </div>
-
-  <span class="experience-page-card__date">September 2026 – Present</span>
+  
   <p><a href="https://cosmic-sizing.org/organization/committees/measurement-practices-committee">Measurement Practices Committee</a></p>
   <ul>
     <li>Contribute to maintaining the principles and rules of the COSMIC method.</li>
@@ -38,12 +48,14 @@ I have approximately ten years of professional experience in software project ma
 </div>
 
 <div class="experience-page-card">
-  <div>
-    <span class="experience-page-card__label">Research & Education</span>
-    <h2>Member in Educational Simulator for Software Estimation Project</h2>
+  <div class="experience-page-card__header">
+    <div>
+      <span class="experience-page-card__label">Research & Education</span>
+      <h2>Member in Educational Simulator for Software Estimation Project</h2>
+    </div>
+    <span class="experience-page-card__date">anuary 2024 – Present</span>
   </div>
 
-  <span class="experience-page-card__date">January 2024 – Present</span>
   <p><a href="https://cosmic-sizing.org/educational-simulator-for-software-estimation/">Educational Simulator for Software Estimation</a></p>
   <ul>
     <li>Contribute to an educational simulator for software project effort estimation.</li>
