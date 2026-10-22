@@ -13,12 +13,12 @@ Selected conference presentations and professional talks related to software mea
 <div class="talk-card">
 
   <div class="talk-card__content">
-    <span class="talk-card__type">IWSM–MENSURA 2026 · Research Presentations</span>
+    <span class="talk-card__type">IWSM–MENSURA 2026 · Paper Presentations</span>
 
     <h2>A Software Version Upgrade Sized with the COSMIC ISO Standard: Management Lessons Learned from a Case Study</h2>
 
     <p class="talk-card__meta">
-      <strong>Best Paper Award</strong><br>
+      <strong>🏆 Best Paper Award</strong><br>
       IWSM–MENSURA 2026<br>
       İzmir, Türkiye · September 2026
     </p>
@@ -35,7 +35,7 @@ Selected conference presentations and professional talks related to software mea
     <a href="{{ '/images/talks/iwsm-mensura-2026-papers.jpg' | relative_url }}"
        class="talk-poster-link">
       <img src="{{ '/images/talks/iwsm-mensura-2026-papers.jpg' | relative_url }}"
-           alt="Presentations of two research papers at IWSM–MENSURA 2026">
+           alt="Two research paper presentations at IWSM–MENSURA 2026">
     </a>
   </div>
 
@@ -71,7 +71,7 @@ Selected conference presentations and professional talks related to software mea
 <div class="talk-card">
 
   <div class="talk-card__content">
-    <span class="talk-card__type">IWSM-MENSURA 2024</span>
+    <span class="talk-card__type">IWSM-MENSURA 2024 · Research Presentations</span>
 
     <h2>Challenges on Standardization of User Stories and COSMIC Sizing</h2>
 
@@ -100,7 +100,7 @@ Selected conference presentations and professional talks related to software mea
 <div class="talk-card talk-card--poster">
 
   <div class="talk-card__content">
-    <span class="talk-card__type">APH in China · AgileCxO</span>
+    <span class="talk-card__type">APH in China · Agile CxO Launch Event</span>
 
     <h2>APH in China</h2>
 
